@@ -52,8 +52,8 @@ module.exports = {
     bundle: 'bundle.js',
   },
   service3: {
-    api: ['/related','/getrelatedpurchases', '/getdetails', '/getratingavg', '/getratingcount', '/related/getrelatedpurchases', '/related/getdetails'],
-    url: 'http://localhost:3003',
+    api: ['/related/products/:id', '/related/products'],
+    url: 'http://18.188.133.153:3003',
     bundle: 'bundle.js'
   },
   service4: {

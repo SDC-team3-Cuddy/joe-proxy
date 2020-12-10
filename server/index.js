@@ -1,6 +1,9 @@
 /*
   This file is responsible for requiring your express server and then binding it to the desired port
 */
+
+// require('newrelic');
+
 const cors = require('cors');
 
 const server = require('./server.js');
