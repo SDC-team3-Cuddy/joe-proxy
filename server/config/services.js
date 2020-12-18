@@ -53,7 +53,7 @@ module.exports = {
   },
   service3: {
     api: ['/related/products/:id', '/related/products'],
-    url: 'http://18.188.133.153:3003',
+    url: 'http://18.222.181.148:3003',
     bundle: 'bundle.js'
   },
   service4: {
